@@ -8,7 +8,7 @@ import android.support.design.widget.TextInputLayout;
 
 import br.com.db1.auth.R;
 import br.com.db1.auth.R2;
-import br.com.db1.mvparchitecture.view.BaseActivity;
+import br.com.db1.mvp.view.BaseActivity;
 import butterknife.BindView;
 import butterknife.OnClick;
 

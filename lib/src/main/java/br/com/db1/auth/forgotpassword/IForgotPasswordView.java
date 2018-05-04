@@ -2,7 +2,7 @@ package br.com.db1.auth.forgotpassword;
 
 import android.support.annotation.StringRes;
 
-import br.com.db1.mvparchitecture.view.IView;
+import br.com.db1.mvp.view.IView;
 
 /**
  * Created by bruno.trovo on 03/07/2017.

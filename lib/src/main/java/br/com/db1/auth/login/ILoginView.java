@@ -5,7 +5,7 @@ import android.support.annotation.StringRes;
 
 import com.facebook.login.LoginManager;
 
-import br.com.db1.mvparchitecture.view.IView;
+import br.com.db1.mvp.view.IView;
 
 /**
  * Created by bruno.trovo on 03/07/2017.

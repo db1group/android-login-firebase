@@ -1,6 +1,6 @@
 package br.com.db1.auth.forgotpassword;
 
-import br.com.db1.mvparchitecture.presenter.BasePresenter;
+import br.com.db1.mvp.presenter.BasePresenter;
 
 /**
  * Created by vinicius.camargo on 24/04/2018.

@@ -25,7 +25,7 @@ import com.google.android.gms.tasks.Task;
 
 import br.com.db1.auth.R;
 import br.com.db1.auth.login.result.FacebookResult;
-import br.com.db1.mvparchitecture.presenter.BasePresenter;
+import br.com.db1.mvp.presenter.BasePresenter;
 
 import static android.app.Activity.RESULT_OK;
 

@@ -16,8 +16,8 @@ import java.util.Collections;
 import br.com.db1.auth.R;
 import br.com.db1.auth.R2;
 import br.com.db1.auth.forgotpassword.ForgotPasswordActivity;
-import br.com.db1.mvparchitecture.util.StringUtils;
-import br.com.db1.mvparchitecture.view.BaseActivity;
+import br.com.db1.mvp.util.StringUtils;
+import br.com.db1.mvp.view.BaseActivity;
 import butterknife.BindView;
 import butterknife.OnClick;
 
