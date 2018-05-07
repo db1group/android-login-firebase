@@ -1,0 +1,57 @@
+{
+  //Arquivo necessario para compilacao
+  //Nao aprenseta ligacao oficial com configuracao firebase
+  "project_info": {
+    "project_number": "1111111111",
+    "firebase_url": "https://a-b-11111.firebaseio.com",
+    "project_id": "a-b-11111",
+    "storage_bucket": "a-b-11111.xxx.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1111111111111:android:1111111111111111",
+        "android_client_info": {
+          "package_name": "br.com.db1.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.db1.auth",
+            "certificate_hash": "11"
+          }
+        },
+        {
+          "client_id": "1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "ABC"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
