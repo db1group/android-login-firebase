@@ -10,7 +10,6 @@ public class FacebookResult {
         this.userId = userId;
         this.applicationId = applicationId;
     }
-
     @Override
     public String toString() {
         return "FacebookResult{" +
@@ -19,4 +18,5 @@ public class FacebookResult {
                 ", applicationId='" + applicationId + '\'' +
                 '}';
     }
+
 }
