@@ -1,0 +1,34 @@
+<resources>
+
+
+    <!--Login-->
+    <string name="act_login_hint_user">Usuário</string>
+    <string name="act_login_hint_password">Senha</string>
+    <string name="act_login_label_forgot_password">Esqueceu sua senha?</string>
+    <string name="act_login_label_get_in">Entrar</string>
+    <string name="act_login_login_progress_message">Efetuando login, aguarde …</string>
+    <string name="act_login_entrar_com">ou entrar com</string>
+    <!--Login-->
+
+    <!--forgotPassword password-->
+    <string name="act_forgot_password_cd_icon">Cadeado</string>
+    <string name="act_forgot_password_title">ESQUECEU SUA SENHA?</string>
+    <string name="act_forgot_password_message">Insira o seu nome de usuário para que possamos ajudar você.</string>
+    <string name="act_forgot_password_hint_username">Usuário</string>
+    <string name="act_forgot_password_button_continue">Continuar</string>
+    <!--forgotPassword password-->
+
+    <!--google login begin-->
+    <string name="google_server_client_id">CHANGE_ME</string>
+    <string name="act_login_google">Google</string>
+    <!--google login end-->
+
+
+    <!--facebook login begin-->
+    <string name="facebook_app_id">CHANGE_ME</string>
+    <string name="fb_login_protocol_scheme">CHANGE_ME</string>
+    <string name="act_login_facebook">Facebook</string>
+    <!--facebook login end-->
+
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--activity_login-->
+    <dimen name="act_login_line_width">72dp</dimen>
+    <dimen name="act_login_line_height">2dp</dimen>
+    <!--activity_login-->
+
+    <!--activity forgotpassword-->
+    <dimen name="act_forgot_password_icon_size">72dp</dimen>
+    <!--activity forgotpassword-->
+
+    <!--General Dimensions-->
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+
+    <dimen name="minimum_touch_size">48dp</dimen>
+</resources>
