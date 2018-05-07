@@ -33,35 +33,6 @@ android {
     }
 }
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId 'br.com.db1.auth' //You can either define these here or get them from project conf elsewhere
-            artifactId "${archivesBaseName}"
-            version "${version}"
-            artifact "$buildDir/outputs/aar/${archivesBaseName}-${version}.aar" //aar artifact you want to publish
-
-            //generate pom nodes for dependencies
-            pom.withXml {
-                def dependenciesNode = asNode().appendNode('dependencies')
-                configurations.implementation.allDependencies.each { dependency ->
-                    def dependencyNode = dependenciesNode.appendNode('dependency')
-                    dependencyNode.appendNode('groupId', dependency.group)
-                    dependencyNode.appendNode('artifactId', dependency.name)
-                    dependencyNode.appendNode('version', dependency.version)
-                }
-            }
-        }
-    }
-
-    //publish to filesystem repo
-    repositories{
-        maven {
-            url "$buildDir/repo"
-        }
-    }
-}
-
 dependencies {
     implementation 'com.github.db1global:android-architecture-mvp:v1.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
