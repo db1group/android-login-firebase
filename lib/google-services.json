@@ -1,4 +1,6 @@
 {
+  //Arquivo necessario para compilacao
+  //Nao aprenseta ligacao oficial com configuracao firebase
   "project_info": {
     "project_number": "1111111111",
     "firebase_url": "https://a-b-11111.firebaseio.com",
