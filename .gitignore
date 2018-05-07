@@ -62,7 +62,10 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bugfix_build_publish
 # Freeline
 freeline.py
 freeline/

@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.jakewharton.butterknife'
+<<<<<<< HEAD
 apply plugin: 'maven-publish'
+=======
+>>>>>>> bugfix_build_publish
 
 android {
     compileSdkVersion 27
@@ -33,6 +36,7 @@ android {
     }
 }
 
+<<<<<<< HEAD
 publishing {
     publications {
         maven(MavenPublication) {
@@ -62,6 +66,8 @@ publishing {
     }
 }
 
+=======
+>>>>>>> bugfix_build_publish
 dependencies {
     implementation 'com.github.db1global:android-architecture-mvp:v1.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')

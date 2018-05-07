@@ -10,6 +10,10 @@ public class FacebookResult {
         this.userId = userId;
         this.applicationId = applicationId;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix_build_publish
     @Override
     public String toString() {
         return "FacebookResult{" +
@@ -18,5 +22,8 @@ public class FacebookResult {
                 ", applicationId='" + applicationId + '\'' +
                 '}';
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bugfix_build_publish
 }
