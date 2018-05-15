@@ -19,6 +19,7 @@ import br.com.db1.auth.forgotpassword.ForgotPasswordActivity;
 import br.com.db1.mvp.util.StringUtils;
 import br.com.db1.mvp.view.BaseActivity;
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -67,6 +68,7 @@ public abstract class LoginActivity extends BaseActivity implements ILoginView {
 
     @Override
     protected void initializeComponents() {
+        ButterKnife.bind(this);
         clearFieldErrors();
 
         String username = getIntent().getStringExtra(KEY_USERNAME);
