@@ -46,7 +46,8 @@ public abstract class LoginPresenter extends BasePresenter<ILoginView> {
         int isGooglePlayServicesAvailable =
                 GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(activity);
         this.activity = activity;
-        if (isGooglePlayServicesAvailable == ConnectionResult.SUCCESS) {
+        if (isGooglePlayServicesAvailable == ConnectionResult.SUCCESS
+                && activity.getResources().getBoolean(R.bool.login_social_networks_visible)) {
             facebookCallbackManager = CallbackManager.Factory.create();
             facebookLoginManager = LoginManager.getInstance();
             googleApiClient = buildGoogleApiClient();
