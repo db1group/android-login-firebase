@@ -61,6 +61,7 @@
         <Button
             android:id="@+id/act_login_btn_login"
             style="@style/buttonRounded"
+            android:layout_marginTop="@dimen/spacing_normal"
             android:text="@string/act_login_label_get_in" />
 
         <TextView

@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
-    <style name="buttonRounded" parent="@style/Widget.AppCompat.Button.Borderless" tools:override="true">
+    <style name="baseButtonRounded" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:textColor">@color/colorButtonLoginText</item>
         <item name="android:background">@drawable/button_rounded</item>
         <item name="android:layout_width">match_parent</item>
@@ -10,6 +10,8 @@
         <item name="android:textSize">@dimen/text_normal</item>
         <item name="android:drawablePadding">@dimen/spacing_tiny</item>
     </style>
+
+    <style name="buttonRounded" parent="baseButtonRounded" />
 
     <style name="TextInputLayoutWhite">
         <item name="colorControlNormal">@android:color/white</item>
