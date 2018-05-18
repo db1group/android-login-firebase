@@ -32,7 +32,7 @@ import static android.app.Activity.RESULT_OK;
 /**
  * Created by bruno.trovo on 20/06/2017.
  */
-public abstract class LoginPresenter extends BasePresenter<ILoginView> {
+public abstract class LoginPresenter<V extends ILoginView> extends BasePresenter<V> {
 
     static final int RC_GOOGLE_SIGN_IN = 11;
     private static final int RC_FACEBOOK_SIGN_IN = 64206;
@@ -41,6 +41,11 @@ public abstract class LoginPresenter extends BasePresenter<ILoginView> {
     private CallbackManager facebookCallbackManager;
     private GoogleApiClient googleApiClient;
     private FragmentActivity activity;
+
+    @Override
+    public V getView() {
+        return super.getView();
+    }
 
     public LoginPresenter(FragmentActivity activity) {
         int isGooglePlayServicesAvailable =
