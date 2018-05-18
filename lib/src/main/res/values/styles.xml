@@ -1,7 +1,7 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style name="buttonRounded" parent="@style/Widget.AppCompat.Button.Borderless">
+    <style name="buttonRounded" parent="@style/Widget.AppCompat.Button.Borderless" tools:override="true">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/button_rounded</item>
         <item name="android:layout_width">match_parent</item>
