@@ -60,5 +60,4 @@
         <item name="android:textSize">@dimen/text_normal</item>
     </style>
 
-
 </resources>
