@@ -18,5 +18,4 @@ public class FacebookResult {
                 ", applicationId='" + applicationId + '\'' +
                 '}';
     }
-
 }
