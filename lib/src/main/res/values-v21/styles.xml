@@ -3,6 +3,7 @@
 
     <style name="buttonRounded" parent="baseButtonRounded">
         <item name="android:padding">@dimen/spacing_normal</item>
+        <item name="android:elevation">@dimen/spacing_tiny</item>
     </style>
 
 
