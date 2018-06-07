@@ -1,7 +1,7 @@
 
 # Android Login with Firebase Integration
 
-Whit this library you can improve your app using a login with firebase integration and a custom login focusing only in the responses of each flow.
+With this library you can improve your app using a login with firebase integration and a custom login focusing only in the responses of each flow.
 
 [![](https://jitpack.io/v/db1global/android-login-firebase.svg)](https://jitpack.io/#db1global/android-login-firebase)
 
