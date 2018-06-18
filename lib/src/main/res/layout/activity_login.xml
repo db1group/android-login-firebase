@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:theme="@style/TextInputLayoutWhite"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/inputLayoutHighlight"
+            app:passwordToggleTint="@android:color/white"
             app:theme="@style/TextInputLayoutWhite">
 
             <android.support.design.widget.TextInputEditText
