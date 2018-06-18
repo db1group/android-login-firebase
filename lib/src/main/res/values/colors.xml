@@ -8,4 +8,5 @@
     <color name="colorButtonLoginPressed">@color/colorPrimaryDark</color>
     <color name="colorButtonLoginText">@color/colorPrimary</color>
     <color name="colorBackgroundLoginActivity">@color/colorPrimary</color>
+    <color name="inputLayoutHighlight">@color/colorAccent</color>
 </resources>
