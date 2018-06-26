@@ -12,6 +12,8 @@ import br.com.db1.mvp.view.IView;
  */
 public interface ILoginView extends IView {
 
+    void goToApplicationHome();
+
     void setUsernameFieldError(@StringRes int error);
 
     void setPasswordFieldError(@StringRes int error);

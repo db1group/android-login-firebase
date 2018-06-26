@@ -10,6 +10,7 @@ import br.com.db1.auth.R;
 import br.com.db1.auth.R2;
 import br.com.db1.mvp.view.BaseActivity;
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -41,6 +42,7 @@ public abstract class ForgotPasswordActivity extends BaseActivity implements IFo
 
     @Override
     protected void initializeComponents() {
+        ButterKnife.bind(this);
         initializeToolbar();
         clearFieldErrors();
         presenter = getPresenterImpl();

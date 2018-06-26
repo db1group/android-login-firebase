@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#004c8c</color>
     <color name="colorAccent">#FFA000</color>
 
-    <color name="grey">#F5F5F5</color>
+    <color name="colorButtonLoginDefault">@android:color/white</color>
+    <color name="colorButtonLoginPressed">@color/colorPrimaryDark</color>
+    <color name="colorButtonLoginText">@color/colorPrimary</color>
 </resources>

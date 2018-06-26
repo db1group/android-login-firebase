@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
+import android.view.View;
 import android.widget.Button;
 
 import com.facebook.login.LoginManager;
@@ -19,6 +20,7 @@ import br.com.db1.auth.forgotpassword.ForgotPasswordActivity;
 import br.com.db1.mvp.util.StringUtils;
 import br.com.db1.mvp.view.BaseActivity;
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -67,7 +69,12 @@ public abstract class LoginActivity extends BaseActivity implements ILoginView {
 
     @Override
     protected void initializeComponents() {
+        ButterKnife.bind(this);
         clearFieldErrors();
+
+        if (!getResources().getBoolean(R.bool.forgot_password_visible)) {
+            findViewById(R.id.act_login_tv_forgot_password).setVisibility(View.GONE);
+        }
 
         String username = getIntent().getStringExtra(KEY_USERNAME);
         if (StringUtils.isNotEmpty(username)) {
