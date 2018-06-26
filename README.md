@@ -36,7 +36,8 @@ To use in your project your must extends the classes below and implement their a
 If you want to do provide firebase login:
 * provide a properly configured *google-service.json* in app/
 * put in AndroidManifest:
-```groovy <meta-data  
+```groovy 
+<meta-data  
   android:name="com.facebook.sdk.ApplicationId"  
   android:value="@string/facebook_app_id"  
   tools:replace="android:value" /> 
@@ -47,5 +48,24 @@ If you want to do provide firebase login:
      * *fb_login_protocol_scheme* - more details: https://goo.gl/GC5Vog
 
 ## License
+MIT License
 
+Copyright (c) 2018 DB1 Global Software
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
