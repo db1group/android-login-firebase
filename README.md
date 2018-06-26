@@ -36,7 +36,8 @@ To use in your project your must extends the classes below and implement their a
 If you want to do provide firebase login:
 * provide a properly configured *google-service.json* in app/
 * put in AndroidManifest:
-```groovy <meta-data  
+```groovy 
+<meta-data  
   android:name="com.facebook.sdk.ApplicationId"  
   android:value="@string/facebook_app_id"  
   tools:replace="android:value" /> 
