@@ -7,4 +7,6 @@
     <color name="colorButtonLoginDefault">@android:color/white</color>
     <color name="colorButtonLoginPressed">@color/colorPrimaryDark</color>
     <color name="colorButtonLoginText">@color/colorPrimary</color>
+    <color name="colorBackgroundLoginActivity">@color/colorPrimaryDark</color>
+    <color name="inputLayoutHighlight">@android:color/tab_indicator_text</color>
 </resources>
