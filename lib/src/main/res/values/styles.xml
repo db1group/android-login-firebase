@@ -24,9 +24,9 @@
     </style>
 
     <style name="AppEditText" parent="@android:style/Widget.EditText">
-        <item name="colorControlNormal">@android:color/tab_indicator_text</item>
-        <item name="colorControlActivated">@android:color/tab_indicator_text</item>
-        <item name="colorControlHighlight">@android:color/tab_indicator_text</item>
+        <item name="colorControlNormal">@color/inputLayoutHighlight</item>
+        <item name="colorControlActivated">@color/inputLayoutHighlight</item>
+        <item name="colorControlHighlight">@color/inputLayoutHighlight</item>
         <item name="android:theme">@style/AppEditText</item>
     </style>
 

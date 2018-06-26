@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/colorBackgroundLoginActivity"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:paddingBottom="@dimen/spacing_normal"
@@ -68,7 +68,6 @@
             android:id="@+id/act_login_tv_forgot_password"
             style="@style/textForgotPassword"
             android:text="@string/act_login_label_forgot_password" />
-
     </LinearLayout>
 
     <LinearLayout
